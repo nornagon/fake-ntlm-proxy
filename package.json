@@ -1,0 +1,20 @@
+{
+  "name": "fake-ntlm-proxy",
+  "version": "0.1.0",
+  "description": "Fake NTLM proxy for testing purposes",
+  "repository": "github:nornagon/fake-ntlm-proxy",
+  "keywords": [
+    "ntlm",
+    "proxy",
+    "testing"
+  ],
+  "main": "index.js",
+  "bin": {
+    "fake-ntlm-proxy": "index.js"
+  },
+  "author": "Jeremy Apthorp <nornagon@nornagon.net>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
